@@ -135,6 +135,7 @@ a{
     height: 2.5rem;
     border-radius: 0.7rem;
     margin-bottom: 2.5em;
+    font-weight: 700;
 }
 
 .svg{
@@ -164,7 +165,7 @@ a{
     .image-hero-desktop{
         display: block;
         width: 35%;
-        height: 32rem;
+        height: 40vw;
     }
     .wrap{
         display: flex;
@@ -178,7 +179,7 @@ a{
         height: 50rem;
         width: 50%;
         margin-right: 2em;
-        height: 10rem;
+        height: 10vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -187,7 +188,7 @@ a{
     }
 
     .text1{
-        font-size: 5rem;
+        font-size: 6.5vw;
         display: flex;
         flex-direction: column;
         
@@ -203,15 +204,18 @@ a{
         flex-direction: column;
         justify-content:left;
         text-align: left;
-        font-size: 1.3rem;
+        font-size:1.5vw;
     }
 
     .button-learn{
         width: 30%;
         display: flex;
         justify-content: center;
-        padding: 1.5em;
+        padding: 2vw;
         align-items: center;
+        font-size: 1vw;
+        border-radius: 1.5vw;
+        
     }
     .svg img {
         width:20vw;

@@ -138,6 +138,11 @@ a{
     font-weight: 700;
 }
 
+.button-learn:hover{
+    color: black;
+    background-color: white;
+    border: black 0.2px solid;
+}
 .svg{
     display: flex;
     flex-direction: row;
@@ -165,7 +170,7 @@ a{
     .image-hero-desktop{
         display: block;
         width: 35%;
-        height: 40vw;
+        height: 43vw;
     }
     .wrap{
         display: flex;
@@ -176,7 +181,7 @@ a{
 
     .enwrap2{
         /* background-color: red; */
-        height: 50rem;
+        /* height: 50rem; */
         width: 50%;
         margin-right: 2em;
         height: 10vw;
@@ -188,7 +193,7 @@ a{
     }
 
     .text1{
-        font-size: 6.5vw;
+        font-size: 7vw;
         display: flex;
         flex-direction: column;
         
@@ -204,7 +209,7 @@ a{
         flex-direction: column;
         justify-content:left;
         text-align: left;
-        font-size:1.5vw;
+        font-size:1.8vw;
     }
 
     .button-learn{
@@ -217,13 +222,16 @@ a{
         border-radius: 1.5vw;
         
     }
+    .svg{
+        margin-top: 1em;
+    }
     .svg img {
         width:20vw;
         margin-right: 0.8em;
     }
     
     .audiophile{
-        width: 4rem !important;
+        width: 4vw !important;
     }
     nav{
         display: flex;
@@ -248,7 +256,7 @@ a{
         flex-direction: row;
         margin-left: -20vw;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5vw;
     }
     .enwrap{
         display: flex;
@@ -256,19 +264,21 @@ a{
         /* margin-left: -12.5em; */
         margin-right: 2em;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5vw;
         justify-content: center;
         align-items: baseline;
     }
     .enwrap button{
         background-color: white;
-        width: 6rem;
-        padding: 1em;
-        border-radius: 0.6rem;
+        width: 6vw;
+        height: 2.5vw;
+        border-radius: 0.6vw;
         margin-top: 0em;
         margin-left: 1em;
         margin-right: 1em;
         border: 0.5px solid black;
+        font-size: 1vw;
+        
     }
     .menu-close,.canvas{
         display: none;
@@ -298,45 +308,57 @@ a{
         margin-right: 0.5em;
     }
     .expanded-feature{
+        padding-top: 1vw;
         display:none;
         flex-direction: column;
-        height: 9rem;
-        width: 0;
+        height: 10vw;
         position: absolute;
-        top: 3rem;
-        margin-right: 19em;
+        top: 4vw;
+        margin-right: 22vw;
         z-index: 100;
-        /* margin-bottom:-3em ; */
-        /* bottom: 1rem; */
         border-radius: 1rem;
         background-color:white;
-        width: 8rem;
+        width: 7.5vw;
         -webkit-transition:  0.5s ease-in-out;
         -moz-transition:  0.5s ease-in-out;
         -o-transition: 0.5s ease-in-out;
         transition: 0.5s ease-in-out;
-        padding-top: 1.5em;
+        /* padding-top: 1.5VW; */
         -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+}
+.b1 img{
+    width: 1vw;
 }
 
+.b1 a{
+    font-size: 0.8vw;
+}
 .expanded-company{
     display:none;
     flex-direction: column;
-    height: 7rem;
-    width: 0;
+    height: 7vw;
     position: absolute;
-    top: 3rem;
-    margin-right: 3em;
+    top: 4vw;
+    margin-right: 6vw;
     z-index: 100;
     /* margin-bottom:-3em ; */
     /* bottom: 1rem; */
     border-radius: 1rem;
     background-color:white;
-    width: 6rem;
+    width: 6vw;
     transition: 0.5s;
-    padding-top: 1.5em;
+    padding-top: 1.5vw;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+    font-size: 1vw;
+}
+.logo-nav{
+    height: 2.5vw;
+    padding-left:1vw ;
+    padding-top: 0.5vw;
+}
+nav{
+    font-size: 1vw;
 }
     }
